@@ -1,0 +1,309 @@
+.sla {
+    font-size: 25px;
+    font-family: 'Bahnschrift', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+}
+.Quem {
+    font-family: 'Bahnschrift', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.musica {
+    font-family: 'Bahnschrift', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+ul {
+    font-family: 'Bahnschrift', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+ol {
+    font-size: 16px;
+    font-family: 'Bahnschrift', sans-serif;
+    color: white;
+}
+/* Desafio 8 */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+footer{
+    color: #f8f9fa;
+    padding-left: 10px;
+    font-size: 14px;
+}
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    caption-side: top;
+    padding: 10px;
+    background-color: #801010; 
+    border-radius: 5px;
+    display: table-caption; 
+    
+}
+.Sucesso{
+    text-align: center;
+    color: white;
+}
+
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+
+thead {
+    background-color: #df2100;
+    color: rgb(255, 255, 255);
+}
+
+
+tbody tr {
+    background-color: #ed3535; 
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #ff9999;
+}
+
+
+tbody tr:hover {
+    background-color: #ff0000;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.recente {
+    background-color: #ff1d1d !important;
+}
+div {
+    margin-bottom: 5px;
+}
+
+
+p {
+    font-family: 'Bahnschrift', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+
+img {
+    width: 100%;
+    max-width: 300px;
+}
+/* FIM Desafio 8 */
+/* Desafio 1 */
+#desafio1{
+    background-color: #fcfcfc;
+    padding-left: 50px;
+}
+/* Desafio 2 */
+#desafio2{
+    background-color: #63ce0b;
+}
+#desafio3{
+    background-color: #10c236;
+    padding: 10px;
+}
+#desafio4{
+    background-color: #35f53e;
+}
+#desafio5{
+    background-color: #24d30d;
+}
+#desafio6 {
+    height: 300px;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/815/975/724/avenged-sevenfold-deathbat-a7x-band-logo-wallpaper-preview.jpg'); /* URL da imagem */
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    background-size: 50%;
+    background-color: #09f509;
+}
+#desafio7{
+    background-color: #6eeb08;
+}
+#desafio8{
+    background-color: #06e73f;
+}
+#desafio1, #desafio2, #desafio3, #desafio4, #desafio5, #desafio6, #desafio7, #desafio8 {
+    background-color: rgb(70, 23, 23);
+    margin-bottom: 20px;
+    font-family: 'Bahnschrift', sans-serif;
+}
+.links{
+    text-align: center;
+}
+.nomes{
+    font-size: 15px;
+}
+.titulo{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-top: 50px;
+    /*-webkit-text-stroke-width: 0.9px;*/  /*contorno do texto salvo só pra não ficar perdido*/
+    /*-webkit-text-stroke-color: #070606;*/
+        font-family: 'Bahnschrift', sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+}
+
+.imagemPrincipal{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    height: 300px;
+    background-size: 300px;
+    border: solid 2px;
+}
+#corpo{
+    background-color: rgb(70, 23, 23);
+}
+.botao{
+    padding: 5px 5px;
+    background-color: rgb(190, 24, 24); 
+    font-size: 24px;
+    color:whitesmoke;
+    border-radius: 10px;
+}
+.botao:hover{
+    background-color: rgb(245, 139, 0);
+    transform: scale(1.05);
+    box-shadow: #03203d;
+}
+.botao:active{
+    border-color: rgb(217, 231, 20);
+}
+
+/* DESAFIO 4*/
+.albuns{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    color:rgb(255, 255, 255);
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    text-align: center;
+}
+.foto {
+    width: 20%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-5px);
+}
+.nm {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.data {
+    font-size: 12px;
+    color: #ff0000; 
+    margin-top: 0px;
+}
+/* FIM DESAFIO 4*/
+
+/* DESAFIO 3 */
+#dropdown-menu {
+    background-color: #343a40;  /* Fundo escuro */
+    color: #f8f9fa;  /* Texto claro */
+}
+
+/* DESAFIO 5 */
+#grid-container  {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas de tamanho igual */
+    gap: 5px;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.grid-item_cabeçalho {
+    font-weight: bold;
+    background-color: #ad1e1e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.grid-item {
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+#shows {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+/* FIM DESAFIO 5 */
+
+
+/* DESAFIO 6 em outra pagina somwebRock*/
+/* FIM DESAFIO 6 */
+
+/* DESAFIO 7 */
+#Lista{           
+    list-style-type: initial;
+    font-family: 'Bahnschrift', sans-serif;
+    color:rgb(146, 92, 10) 
+}
+.MBP{
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Rock{
+ font-family: 'Bahnschrift', sans-serif;
+ color: rgb(255, 0, 0);
+
+}
+.Pop{
+ font-family: 'Bahnschrift', sans-serif;
+ color: rgb(235, 132, 15);
+}
+
+.Jazz{
+font-family: 'Bahnschrift', sans-serif;
+color: rgb(253, 232, 38);
+}
+
+.Artista1{
+    color: rgb(240, 215, 135);
+    font-family: 'Bahnschrift', sans-serif;;
+}
+
+.Artista2{
+    color: rgb(190, 90, 90);
+    font-family: 'Bahnschrift', sans-serif;;
+}
+.Artista3{
+    color: rgb(241, 197, 108);
+    font-family: 'Bahnschrift', sans-serif;;
+}
+.Artista4{
+    color: rgb(230, 236, 169);
+    font-family: 'Bahnschrift', sans-serif;;
+}
